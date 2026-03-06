@@ -22,3 +22,11 @@ if (age >= 18 && hasDriverLicense) {
     console.log("Nemůžeš řídit!")
 }
 
+let isHoliday = false;
+let isWeekend = true;
+
+if (isHoliday || isWeekend) {
+    console.log("Je čas relaxovat!");
+} else {
+    console.log("Musíme pracovat!")
+}
