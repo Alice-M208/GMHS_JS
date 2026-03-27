@@ -1,6 +1,20 @@
 let counter = 0;
 
 while (counter < 10) {
-    console.log(counter)
+    let message = counter; 
+    if (counter === 7) {
+        message = "7 je tady";
+    }
+    console.log(message);
     counter++;
-} 
+}
+
+for (let i = 0; i < 10; i++) {
+    if (i === 5) continue; 
+    console.log(i)
+}
+
+for (let i = 0; i < 10; i++) {
+    if (i === 6) break;
+    console.log(i)
+}
