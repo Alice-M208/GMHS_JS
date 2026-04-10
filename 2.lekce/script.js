@@ -7,9 +7,9 @@ console.log(userName);
 userName = "Maggie";
 console.log(userName);
 
-console.log(7+4)
-console.log("7" + "4");
-console.log("7" + 4);
+console.log(7+4);
+console.log("7"+"4");
+console.log("7"+4);
 
 let age = 17;
 console.log(age > 20)
@@ -29,7 +29,7 @@ console.log(cisloA*cisloB)
 console.log(cisloA/cisloB)
 
 //umocňování **
-console.log(cisloA**cislob)
+console.log(cisloA**cisloB)
 //zbytek
 
 console.log(cisloA % cisloB)
@@ -43,7 +43,7 @@ let number = 18;
 number = number +1;
 number+=1;
 number-=2;
-number*=4;
+number*=5;
 number/=6;
 number%= 3; 
 number++;
