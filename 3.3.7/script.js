@@ -53,3 +53,12 @@ function odcitani(num1, num2) {
 }
 
 odcitani(13,8)
+
+
+// Napiš funkci printRage, která vypíše do
+// konzole všechna čísla od parametru start až po end 
+// postup:
+// 1) Deklarace funkce
+// 2) definování parametrů
+// 3) for smyčka
+// 4) Vyvolání funkce a argumentů
