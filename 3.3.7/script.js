@@ -47,3 +47,9 @@ function deleni(num1, num2) {
 }
 
 deleni(14,7)
+
+function odcitani(num1, num2) {
+    console.log(num1 - num2);
+}
+
+odcitani(13,8)
